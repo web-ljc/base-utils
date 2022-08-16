@@ -1,14 +1,34 @@
 {
-  "name": "base-utils",
+  "name": "base-utils-js",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "JS工具函数库",
+  "main": "dist/base-utils.js",
   "scripts": {
     "build:watch": "webpack --watch"
   },
-  "keywords": [],
+  "keywords": [
+    "@ljc/base-utils",
+    "utils",
+    "base",
+    "js",
+    "ljc",
+    "es5",
+    "es6",
+    "array",
+    "object",
+    "function",
+    "string",
+    "axios",
+    "event-bus",
+    "pub-sub",
+    "promise"
+  ],
   "author": "",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
