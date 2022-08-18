@@ -1,4 +1,4 @@
-# mine-base-utils
+# base-utils-js
 ## 自定义工具函数库
 
 安装
