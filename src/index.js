@@ -1,8 +1,8 @@
 // 引入文件
-import { type } from './function/type.js'
+import { dataType } from './function/type.js'
 // 向外暴露文件
 export {
-  type
+  dataType
 }
 
 export const test = () => {

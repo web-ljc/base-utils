@@ -14,7 +14,7 @@ _typeArr.forEach(item => {
   obj[`[object ${item}]`] = item.toLowerCase()
 })
 
-export function type(val) {
+export function dataType(val) {
   // 传递null和undefined，返回对应字符串
   if(val == null) {
     return val + ''

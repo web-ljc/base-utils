@@ -1,6 +1,6 @@
 {
   "name": "base-utils-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JS工具函数库",
   "main": "dist/base-utils.js",
   "scripts": {
